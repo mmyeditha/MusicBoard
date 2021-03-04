@@ -1,0 +1,96 @@
+.column1 {
+    width:33%;
+    float:left;
+}
+
+.column2{
+    width:33%;
+    float:left;
+}
+
+.column3{
+    width:33%;
+    float:left;
+}
+
+.smallbox{
+    border-radius: 25px;
+    width:95%;
+    height:500px;
+    background-color:coral;
+}
+
+.bigbox{
+    border-radius: 25px;
+    width:95%;
+    height:500px;
+    background-color:coral;
+    overflow:hidden;
+}
+
+body{
+    background-color:black
+}
+
+.smallbox::-webkit-scrollbar{
+    display:none
+}   
+
+.fade-in {
+  animation: fadeIn ease 10s;
+  -webkit-animation: fadeIn ease 10s;
+  -moz-animation: fadeIn ease 10s;
+  -o-animation: fadeIn ease 10s;
+  -ms-animation: fadeIn ease 10s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+}
+
+.spotify{
+    text-align: center;
+}
+
+.bigbox::-webkit-scrollbar{
+    display:none
+}   
